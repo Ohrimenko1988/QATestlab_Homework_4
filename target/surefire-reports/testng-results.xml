@@ -1,0 +1,1545 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="8" passed="8">
+  <reporter-output>
+    <line>
+      <![CDATA[--->> initialize all class fields<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> initialize is completed<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> go to URL<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> try load page https://www.bing.com/<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> page https://www.bing.com/ is loaded<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> find Images button<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> try find element --- By.id: scpl1<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> element --- By.id: scpl1 --- was founded<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> element [[ChromeDriver: chrome on XP (6987e834a4a6827dc9e33e4b76f2cbf1)] -> id: scpl1] was clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> check the page title<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> the page title was checked<br>]]>
+    </line>
+    <line>
+      <![CDATA[>-->> found and save count of elements<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> try find element --- By.cssSelector: div>img[alt^=Рекомендуемое]<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> element --- By.cssSelector: div>img[alt^=Рекомендуемое] --- was founded<br>]]>
+    </line>
+    <line>
+      <![CDATA[>-->> count was saved<br>]]>
+    </line>
+    <line>
+      <![CDATA[>-->> --------------  try scroll page 4 times  --------------<br>]]>
+    </line>
+    <line>
+      <![CDATA[>-->> scroll down<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> try execute JavaScript --- window.scrollTo(0, document.body.scrollHeight)<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> JavaScript was executed --- window.scrollTo(0, document.body.scrollHeight)<br>]]>
+    </line>
+    <line>
+      <![CDATA[>-->> scroll is completed<br>]]>
+    </line>
+    <line>
+      <![CDATA[>-->> wait visibility of the last list element<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> try find element --- By.cssSelector: div>img[alt^=Рекомендуемое]<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> element --- By.cssSelector: div>img[alt^=Рекомендуемое] --- was founded<br>]]>
+    </line>
+    <line>
+      <![CDATA[>-->> element is visibility<br>]]>
+    </line>
+    <line>
+      <![CDATA[>-->> wait until the new images will be present in the DOM <br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> try find element --- By.xpath: //div[@id='recContainer']/div/ul/li[@data-idx='70']<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> element --- By.xpath: //div[@id='recContainer']/div/ul/li[@data-idx='70'] --- was founded<br>]]>
+    </line>
+    <line>
+      <![CDATA[>-->> wait is completed<br>]]>
+    </line>
+    <line>
+      <![CDATA[>-->> compare previously and after scroll images count<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> try find element --- By.cssSelector: div>img[alt^=Рекомендуемое]<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> element --- By.cssSelector: div>img[alt^=Рекомендуемое] --- was founded<br>]]>
+    </line>
+    <line>
+      <![CDATA[>-->> check that new images was download after scroll page<br>]]>
+    </line>
+    <line>
+      <![CDATA[>-->> check is complete<br>]]>
+    </line>
+    <line>
+      <![CDATA[>-->> scroll down<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> try execute JavaScript --- window.scrollTo(0, document.body.scrollHeight)<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> JavaScript was executed --- window.scrollTo(0, document.body.scrollHeight)<br>]]>
+    </line>
+    <line>
+      <![CDATA[>-->> scroll is completed<br>]]>
+    </line>
+    <line>
+      <![CDATA[>-->> wait visibility of the last list element<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> try find element --- By.cssSelector: div>img[alt^=Рекомендуемое]<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> element --- By.cssSelector: div>img[alt^=Рекомендуемое] --- was founded<br>]]>
+    </line>
+    <line>
+      <![CDATA[>-->> element is visibility<br>]]>
+    </line>
+    <line>
+      <![CDATA[>-->> wait until the new images will be present in the DOM <br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> try find element --- By.xpath: //div[@id='recContainer']/div/ul/li[@data-idx='105']<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> element --- By.xpath: //div[@id='recContainer']/div/ul/li[@data-idx='105'] --- was founded<br>]]>
+    </line>
+    <line>
+      <![CDATA[>-->> wait is completed<br>]]>
+    </line>
+    <line>
+      <![CDATA[>-->> compare previously and after scroll images count<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> try find element --- By.cssSelector: div>img[alt^=Рекомендуемое]<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> element --- By.cssSelector: div>img[alt^=Рекомендуемое] --- was founded<br>]]>
+    </line>
+    <line>
+      <![CDATA[>-->> check that new images was download after scroll page<br>]]>
+    </line>
+    <line>
+      <![CDATA[>-->> check is complete<br>]]>
+    </line>
+    <line>
+      <![CDATA[>-->> scroll down<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> try execute JavaScript --- window.scrollTo(0, document.body.scrollHeight)<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> JavaScript was executed --- window.scrollTo(0, document.body.scrollHeight)<br>]]>
+    </line>
+    <line>
+      <![CDATA[>-->> scroll is completed<br>]]>
+    </line>
+    <line>
+      <![CDATA[>-->> wait visibility of the last list element<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> try find element --- By.cssSelector: div>img[alt^=Рекомендуемое]<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> element --- By.cssSelector: div>img[alt^=Рекомендуемое] --- was founded<br>]]>
+    </line>
+    <line>
+      <![CDATA[>-->> element is visibility<br>]]>
+    </line>
+    <line>
+      <![CDATA[>-->> wait until the new images will be present in the DOM <br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> try find element --- By.xpath: //div[@id='recContainer']/div/ul/li[@data-idx='140']<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> element --- By.xpath: //div[@id='recContainer']/div/ul/li[@data-idx='140'] --- was founded<br>]]>
+    </line>
+    <line>
+      <![CDATA[>-->> wait is completed<br>]]>
+    </line>
+    <line>
+      <![CDATA[>-->> compare previously and after scroll images count<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> try find element --- By.cssSelector: div>img[alt^=Рекомендуемое]<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> element --- By.cssSelector: div>img[alt^=Рекомендуемое] --- was founded<br>]]>
+    </line>
+    <line>
+      <![CDATA[>-->> check that new images was download after scroll page<br>]]>
+    </line>
+    <line>
+      <![CDATA[>-->> check is complete<br>]]>
+    </line>
+    <line>
+      <![CDATA[>-->> scroll down<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> try execute JavaScript --- window.scrollTo(0, document.body.scrollHeight)<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> JavaScript was executed --- window.scrollTo(0, document.body.scrollHeight)<br>]]>
+    </line>
+    <line>
+      <![CDATA[>-->> scroll is completed<br>]]>
+    </line>
+    <line>
+      <![CDATA[>-->> wait visibility of the last list element<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> try find element --- By.cssSelector: div>img[alt^=Рекомендуемое]<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> element --- By.cssSelector: div>img[alt^=Рекомендуемое] --- was founded<br>]]>
+    </line>
+    <line>
+      <![CDATA[>-->> element is visibility<br>]]>
+    </line>
+    <line>
+      <![CDATA[>-->> wait until the new images will be present in the DOM <br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> try find element --- By.xpath: //div[@id='recContainer']/div/ul/li[@data-idx='175']<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> element --- By.xpath: //div[@id='recContainer']/div/ul/li[@data-idx='175'] --- was founded<br>]]>
+    </line>
+    <line>
+      <![CDATA[>-->> wait is completed<br>]]>
+    </line>
+    <line>
+      <![CDATA[>-->> compare previously and after scroll images count<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> try find element --- By.cssSelector: div>img[alt^=Рекомендуемое]<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> element --- By.cssSelector: div>img[alt^=Рекомендуемое] --- was founded<br>]]>
+    </line>
+    <line>
+      <![CDATA[>-->> check that new images was download after scroll page<br>]]>
+    </line>
+    <line>
+      <![CDATA[>-->> check is complete<br>]]>
+    </line>
+    <line>
+      <![CDATA[>-->> ----------------  page scrolled 4 times  --------------------<br>]]>
+    </line>
+    <line>
+      <![CDATA[>-->> scroll window to top<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> try execute JavaScript --- window.scrollTo(0,0)<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> JavaScript was executed --- window.scrollTo(0,0)<br>]]>
+    </line>
+    <line>
+      <![CDATA[>-->> scroll is completed<br>]]>
+    </line>
+    <line>
+      <![CDATA[>-->> wait until search field will be visible<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> try find element --- By.className: b_searchbox<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> element --- By.className: b_searchbox --- was founded<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> try find element --- By.className: b_searchbox<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> element --- By.className: b_searchbox --- was founded<br>]]>
+    </line>
+    <line>
+      <![CDATA[>-->> clear search field<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> try find element --- By.className: b_searchbox<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> element --- By.className: b_searchbox --- was founded<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> try change value of element --- [[ChromeDriver: chrome on XP (6987e834a4a6827dc9e33e4b76f2cbf1)] -> class name: b_searchbox]<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> value was changed in element --- [[ChromeDriver: chrome on XP (6987e834a4a6827dc9e33e4b76f2cbf1)] -> class name: b_searchbox]<br>]]>
+    </line>
+    <line>
+      <![CDATA[>-->> input search string<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> try find element --- By.className: b_searchbox<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> element --- By.className: b_searchbox --- was founded<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> try change value of element --- [[ChromeDriver: chrome on XP (6987e834a4a6827dc9e33e4b76f2cbf1)] -> class name: b_searchbox]<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> value was changed in element --- [[ChromeDriver: chrome on XP (6987e834a4a6827dc9e33e4b76f2cbf1)] -> class name: b_searchbox]<br>]]>
+    </line>
+    <line>
+      <![CDATA[>-->> wait until search expression will be located in the search field<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> try find element --- By.className: b_searchbox<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> element --- By.className: b_searchbox --- was founded<br>]]>
+    </line>
+    <line>
+      <![CDATA[>-->> press Enter button<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> try find element --- By.className: b_searchbox<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> element --- By.className: b_searchbox --- was founded<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> try change value of element --- [[ChromeDriver: chrome on XP (6987e834a4a6827dc9e33e4b76f2cbf1)] -> class name: b_searchbox]<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> value was changed in element --- [[ChromeDriver: chrome on XP (6987e834a4a6827dc9e33e4b76f2cbf1)] -> class name: b_searchbox]<br>]]>
+    </line>
+    <line>
+      <![CDATA[>-->> wait until the page title will be with search expression<br>]]>
+    </line>
+    <line>
+      <![CDATA[>-->> wait until the first image on the page will be visible <br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> try find element --- By.xpath: //div[@class='imgres']/div[@class='dg_u'][1]/div/a<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> element --- By.xpath: //div[@class='imgres']/div[@class='dg_u'][1]/div/a --- was founded<br>]]>
+    </line>
+    <line>
+      <![CDATA[>-->> wait until search field will be visible<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> try find element --- By.className: b_searchbox<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> element --- By.className: b_searchbox --- was founded<br>]]>
+    </line>
+    <line>
+      <![CDATA[>-->> clear search field<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> try find element --- By.className: b_searchbox<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> element --- By.className: b_searchbox --- was founded<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> try change value of element --- [[ChromeDriver: chrome on XP (6987e834a4a6827dc9e33e4b76f2cbf1)] -> class name: b_searchbox]<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> value was changed in element --- [[ChromeDriver: chrome on XP (6987e834a4a6827dc9e33e4b76f2cbf1)] -> class name: b_searchbox]<br>]]>
+    </line>
+    <line>
+      <![CDATA[>-->> input search string<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> try find element --- By.className: b_searchbox<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> element --- By.className: b_searchbox --- was founded<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> try change value of element --- [[ChromeDriver: chrome on XP (6987e834a4a6827dc9e33e4b76f2cbf1)] -> class name: b_searchbox]<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> value was changed in element --- [[ChromeDriver: chrome on XP (6987e834a4a6827dc9e33e4b76f2cbf1)] -> class name: b_searchbox]<br>]]>
+    </line>
+    <line>
+      <![CDATA[>-->> wait until search expression will be located in the search field<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> try find element --- By.className: b_searchbox<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> element --- By.className: b_searchbox --- was founded<br>]]>
+    </line>
+    <line>
+      <![CDATA[>-->> press Enter button<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> try find element --- By.className: b_searchbox<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> element --- By.className: b_searchbox --- was founded<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> try change value of element --- [[ChromeDriver: chrome on XP (6987e834a4a6827dc9e33e4b76f2cbf1)] -> class name: b_searchbox]<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> value was changed in element --- [[ChromeDriver: chrome on XP (6987e834a4a6827dc9e33e4b76f2cbf1)] -> class name: b_searchbox]<br>]]>
+    </line>
+    <line>
+      <![CDATA[>-->> wait until the page title will be with search expression<br>]]>
+    </line>
+    <line>
+      <![CDATA[>-->> wait until the first image on the page will be visible <br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> try find element --- By.xpath: //div[@class='imgres']/div[@class='dg_u'][1]/div/a<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> element --- By.xpath: //div[@class='imgres']/div[@class='dg_u'][1]/div/a --- was founded<br>]]>
+    </line>
+    <line>
+      <![CDATA[>-->> wait until search field will be visible<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> try find element --- By.className: b_searchbox<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> element --- By.className: b_searchbox --- was founded<br>]]>
+    </line>
+    <line>
+      <![CDATA[>-->> clear search field<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> try find element --- By.className: b_searchbox<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> element --- By.className: b_searchbox --- was founded<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> try change value of element --- [[ChromeDriver: chrome on XP (6987e834a4a6827dc9e33e4b76f2cbf1)] -> class name: b_searchbox]<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> value was changed in element --- [[ChromeDriver: chrome on XP (6987e834a4a6827dc9e33e4b76f2cbf1)] -> class name: b_searchbox]<br>]]>
+    </line>
+    <line>
+      <![CDATA[>-->> input search string<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> try find element --- By.className: b_searchbox<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> element --- By.className: b_searchbox --- was founded<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> try change value of element --- [[ChromeDriver: chrome on XP (6987e834a4a6827dc9e33e4b76f2cbf1)] -> class name: b_searchbox]<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> value was changed in element --- [[ChromeDriver: chrome on XP (6987e834a4a6827dc9e33e4b76f2cbf1)] -> class name: b_searchbox]<br>]]>
+    </line>
+    <line>
+      <![CDATA[>-->> wait until search expression will be located in the search field<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> try find element --- By.className: b_searchbox<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> element --- By.className: b_searchbox --- was founded<br>]]>
+    </line>
+    <line>
+      <![CDATA[>-->> press Enter button<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> try find element --- By.className: b_searchbox<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> element --- By.className: b_searchbox --- was founded<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> try change value of element --- [[ChromeDriver: chrome on XP (6987e834a4a6827dc9e33e4b76f2cbf1)] -> class name: b_searchbox]<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> value was changed in element --- [[ChromeDriver: chrome on XP (6987e834a4a6827dc9e33e4b76f2cbf1)] -> class name: b_searchbox]<br>]]>
+    </line>
+    <line>
+      <![CDATA[>-->> wait until the page title will be with search expression<br>]]>
+    </line>
+    <line>
+      <![CDATA[>-->> wait until the first image on the page will be visible <br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> try find element --- By.xpath: //div[@class='imgres']/div[@class='dg_u'][1]/div/a<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> element --- By.xpath: //div[@class='imgres']/div[@class='dg_u'][1]/div/a --- was founded<br>]]>
+    </line>
+    <line>
+      <![CDATA[>-->> hover the mouse to the first image<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> try find element --- By.xpath: //div[@class='imgres']/div[@class='dg_u'][1]/div/a<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> element --- By.xpath: //div[@class='imgres']/div[@class='dg_u'][1]/div/a --- was founded<br>]]>
+    </line>
+    <line>
+      <![CDATA[>-->> wait resize image<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> try find element --- By.xpath: //div[@class='irhcs']<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> element --- By.xpath: //div[@class='irhcs'] --- was founded<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> try find element --- By.xpath: //div[@class='irhcs']<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> element --- By.xpath: //div[@class='irhcs'] --- was founded<br>]]>
+    </line>
+    <line>
+      <![CDATA[>-->> check resize image<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> try find element --- By.xpath: //div[@class='irhcs']<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> element --- By.xpath: //div[@class='irhcs'] --- was founded<br>]]>
+    </line>
+    <line>
+      <![CDATA[>-->> wait then save-button will be clickable<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> try find element --- By.xpath: //div[@class='irhcs']/span/span<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> element --- By.xpath: //div[@class='irhcs']/span/span --- was founded<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> try find element --- By.xpath: //div[@class='irhcs']/span/span<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> element --- By.xpath: //div[@class='irhcs']/span/span --- was founded<br>]]>
+    </line>
+    <line>
+      <![CDATA[>-->> check that element is available<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> try find element --- By.xpath: //div[@class='irhcs']/span/span<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> element --- By.xpath: //div[@class='irhcs']/span/span --- was founded<br>]]>
+    </line>
+    <line>
+      <![CDATA[>-->> wait until search-by-image button will be clickable<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> try find element --- By.xpath: //div[@class='irhcs']/span/img[@title='Поиск по изображению']<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> element --- By.xpath: //div[@class='irhcs']/span/img[@title='Поиск по изображению'] --- was founded<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> try find element --- By.xpath: //div[@class='irhcs']/span/img[@title='Поиск по изображению']<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> element --- By.xpath: //div[@class='irhcs']/span/img[@title='Поиск по изображению'] --- was founded<br>]]>
+    </line>
+    <line>
+      <![CDATA[>-->> check that element is available<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> try find element --- By.xpath: //div[@class='irhcs']/span/img[@title='Поиск по изображению']<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> element --- By.xpath: //div[@class='irhcs']/span/img[@title='Поиск по изображению'] --- was founded<br>]]>
+    </line>
+    <line>
+      <![CDATA[>-->> wait until violation button will be clickable<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> try find element --- By.xpath: //div[@class='irhcs']/span/img[@title='Пометить как изображение для взрослых']<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> element --- By.xpath: //div[@class='irhcs']/span/img[@title='Пометить как изображение для взрослых'] --- was founded<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> try find element --- By.xpath: //div[@class='irhcs']/span/img[@title='Пометить как изображение для взрослых']<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> element --- By.xpath: //div[@class='irhcs']/span/img[@title='Пометить как изображение для взрослых'] --- was founded<br>]]>
+    </line>
+    <line>
+      <![CDATA[>-->> check that element is available<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> try find element --- By.xpath: //div[@class='irhcs']/span/img[@title='Пометить как изображение для взрослых']<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> element --- By.xpath: //div[@class='irhcs']/span/img[@title='Пометить как изображение для взрослых'] --- was founded<br>]]>
+    </line>
+    <line>
+      <![CDATA[>-->> click on search-by-image button<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> try find element --- By.xpath: //div[@class='irhcs']/span/img[@title='Поиск по изображению']<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> element --- By.xpath: //div[@class='irhcs']/span/img[@title='Поиск по изображению'] --- was founded<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> try find element --- By.xpath: //div[@class='irhcs']/span/img[@title='Поиск по изображению']<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> element --- By.xpath: //div[@class='irhcs']/span/img[@title='Поиск по изображению'] --- was founded<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> try find element --- By.xpath: //div[@class='irhcs']/span/img[@title='Поиск по изображению']<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> element --- By.xpath: //div[@class='irhcs']/span/img[@title='Поиск по изображению'] --- was founded<br>]]>
+    </line>
+    <line>
+      <![CDATA[>-->> wait until slide show will be loaded<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> try find element --- By.xpath: //span[@id='copy']<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> element --- By.xpath: //span[@id='copy'] --- was founded<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> try find element --- By.xpath: //span[@id='copy']<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> element --- By.xpath: //span[@id='copy'] --- was founded<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> try find element --- By.xpath: //span[@id='copy']<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> element --- By.xpath: //span[@id='copy'] --- was founded<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> try find element --- By.xpath: //span[@id='copy']<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> element --- By.xpath: //span[@id='copy'] --- was founded<br>]]>
+    </line>
+    <line>
+      <![CDATA[>-->> check that element is available<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> try find element --- By.xpath: //span[@id='copy']<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> element --- By.xpath: //span[@id='copy'] --- was founded<br>]]>
+    </line>
+    <line>
+      <![CDATA[>-->> wait until element will be clickable<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> try find element --- By.xpath: //div[@class='expandButton clickable active']/span<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> element --- By.xpath: //div[@class='expandButton clickable active']/span --- was founded<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> try find element --- By.xpath: //div[@class='expandButton clickable active']/span<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> element --- By.xpath: //div[@class='expandButton clickable active']/span --- was founded<br>]]>
+    </line>
+    <line>
+      <![CDATA[>-->> wait until element will be visibility <br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> try find element --- By.xpath: //div[@class='expandButton clickable active']/span<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> element --- By.xpath: //div[@class='expandButton clickable active']/span --- was founded<br>]]>
+    </line>
+    <line>
+      <![CDATA[>-->> click on it<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> try find element --- By.xpath: //div[@class='expandButton clickable active']/span<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> element --- By.xpath: //div[@class='expandButton clickable active']/span --- was founded<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> try find element --- By.xpath: //div[@class='expandButton clickable active']/span<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> element --- By.xpath: //div[@class='expandButton clickable active']/span --- was founded<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> try find element --- By.xpath: //div[@class='expandButton clickable active']/span<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> element --- By.xpath: //div[@class='expandButton clickable active']/span --- was founded<br>]]>
+    </line>
+    <line>
+      <![CDATA[>-->> get last index of the related images list<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> try find element --- By.xpath: //div[@class='tab-content']//li<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> element --- By.xpath: //div[@class='tab-content']//li --- was founded<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> try find element --- By.xpath: //div[@class='tab-content']//li<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> element --- By.xpath: //div[@class='tab-content']//li --- was founded<br>]]>
+    </line>
+    <line>
+      <![CDATA[>-->> wait until last element will be not hiden<br>]]>
+    </line>
+    <line>
+      <![CDATA[>-->> check that size of related images in the acceptable limits<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> try find element --- By.xpath: //div[@class='tab-content']//li<br>]]>
+    </line>
+    <line>
+      <![CDATA[--->> element --- By.xpath: //div[@class='tab-content']//li --- was founded<br>]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="16119" started-at="2016-12-21T14:50:40Z" finished-at="2016-12-21T14:50:56Z">
+    <groups>
+    </groups>
+    <test name="Main" duration-ms="16119" started-at="2016-12-21T14:50:40Z" finished-at="2016-12-21T14:50:56Z">
+      <class name="com.ohrimenko1988.QA_homework_4.Main">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.ohrimenko1988.QA_homework_4.Main@1324409e]" name="initialize" is-config="true" duration-ms="2754" started-at="2016-12-21T16:50:40Z" finished-at="2016-12-21T16:50:43Z">
+          <reporter-output>
+            <line>
+              <![CDATA[--->> initialize all class fields<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> initialize is completed<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="uploadPage()[pri:0, instance:com.ohrimenko1988.QA_homework_4.Main@1324409e]" name="uploadPage" duration-ms="2571" started-at="2016-12-21T16:50:43Z" finished-at="2016-12-21T16:50:45Z">
+          <reporter-output>
+            <line>
+              <![CDATA[--->> go to URL<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> try load page https://www.bing.com/<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> page https://www.bing.com/ is loaded<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> find Images button<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> try find element --- By.id: scpl1<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> element --- By.id: scpl1 --- was founded<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> element [[ChromeDriver: chrome on XP (6987e834a4a6827dc9e33e4b76f2cbf1)] -> id: scpl1] was clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> check the page title<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> the page title was checked<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- uploadPage -->
+        <test-method status="PASS" signature="scrollPage()[pri:0, instance:com.ohrimenko1988.QA_homework_4.Main@1324409e]" name="scrollPage" duration-ms="1760" started-at="2016-12-21T16:50:45Z" depends-on-methods="com.ohrimenko1988.QA_homework_4.Main.uploadPage" finished-at="2016-12-21T16:50:47Z">
+          <reporter-output>
+            <line>
+              <![CDATA[>-->> found and save count of elements<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> try find element --- By.cssSelector: div>img[alt^=Рекомендуемое]<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> element --- By.cssSelector: div>img[alt^=Рекомендуемое] --- was founded<br>]]>
+            </line>
+            <line>
+              <![CDATA[>-->> count was saved<br>]]>
+            </line>
+            <line>
+              <![CDATA[>-->> --------------  try scroll page 4 times  --------------<br>]]>
+            </line>
+            <line>
+              <![CDATA[>-->> scroll down<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> try execute JavaScript --- window.scrollTo(0, document.body.scrollHeight)<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> JavaScript was executed --- window.scrollTo(0, document.body.scrollHeight)<br>]]>
+            </line>
+            <line>
+              <![CDATA[>-->> scroll is completed<br>]]>
+            </line>
+            <line>
+              <![CDATA[>-->> wait visibility of the last list element<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> try find element --- By.cssSelector: div>img[alt^=Рекомендуемое]<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> element --- By.cssSelector: div>img[alt^=Рекомендуемое] --- was founded<br>]]>
+            </line>
+            <line>
+              <![CDATA[>-->> element is visibility<br>]]>
+            </line>
+            <line>
+              <![CDATA[>-->> wait until the new images will be present in the DOM <br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> try find element --- By.xpath: //div[@id='recContainer']/div/ul/li[@data-idx='70']<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> element --- By.xpath: //div[@id='recContainer']/div/ul/li[@data-idx='70'] --- was founded<br>]]>
+            </line>
+            <line>
+              <![CDATA[>-->> wait is completed<br>]]>
+            </line>
+            <line>
+              <![CDATA[>-->> compare previously and after scroll images count<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> try find element --- By.cssSelector: div>img[alt^=Рекомендуемое]<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> element --- By.cssSelector: div>img[alt^=Рекомендуемое] --- was founded<br>]]>
+            </line>
+            <line>
+              <![CDATA[>-->> check that new images was download after scroll page<br>]]>
+            </line>
+            <line>
+              <![CDATA[>-->> check is complete<br>]]>
+            </line>
+            <line>
+              <![CDATA[>-->> scroll down<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> try execute JavaScript --- window.scrollTo(0, document.body.scrollHeight)<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> JavaScript was executed --- window.scrollTo(0, document.body.scrollHeight)<br>]]>
+            </line>
+            <line>
+              <![CDATA[>-->> scroll is completed<br>]]>
+            </line>
+            <line>
+              <![CDATA[>-->> wait visibility of the last list element<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> try find element --- By.cssSelector: div>img[alt^=Рекомендуемое]<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> element --- By.cssSelector: div>img[alt^=Рекомендуемое] --- was founded<br>]]>
+            </line>
+            <line>
+              <![CDATA[>-->> element is visibility<br>]]>
+            </line>
+            <line>
+              <![CDATA[>-->> wait until the new images will be present in the DOM <br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> try find element --- By.xpath: //div[@id='recContainer']/div/ul/li[@data-idx='105']<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> element --- By.xpath: //div[@id='recContainer']/div/ul/li[@data-idx='105'] --- was founded<br>]]>
+            </line>
+            <line>
+              <![CDATA[>-->> wait is completed<br>]]>
+            </line>
+            <line>
+              <![CDATA[>-->> compare previously and after scroll images count<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> try find element --- By.cssSelector: div>img[alt^=Рекомендуемое]<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> element --- By.cssSelector: div>img[alt^=Рекомендуемое] --- was founded<br>]]>
+            </line>
+            <line>
+              <![CDATA[>-->> check that new images was download after scroll page<br>]]>
+            </line>
+            <line>
+              <![CDATA[>-->> check is complete<br>]]>
+            </line>
+            <line>
+              <![CDATA[>-->> scroll down<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> try execute JavaScript --- window.scrollTo(0, document.body.scrollHeight)<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> JavaScript was executed --- window.scrollTo(0, document.body.scrollHeight)<br>]]>
+            </line>
+            <line>
+              <![CDATA[>-->> scroll is completed<br>]]>
+            </line>
+            <line>
+              <![CDATA[>-->> wait visibility of the last list element<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> try find element --- By.cssSelector: div>img[alt^=Рекомендуемое]<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> element --- By.cssSelector: div>img[alt^=Рекомендуемое] --- was founded<br>]]>
+            </line>
+            <line>
+              <![CDATA[>-->> element is visibility<br>]]>
+            </line>
+            <line>
+              <![CDATA[>-->> wait until the new images will be present in the DOM <br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> try find element --- By.xpath: //div[@id='recContainer']/div/ul/li[@data-idx='140']<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> element --- By.xpath: //div[@id='recContainer']/div/ul/li[@data-idx='140'] --- was founded<br>]]>
+            </line>
+            <line>
+              <![CDATA[>-->> wait is completed<br>]]>
+            </line>
+            <line>
+              <![CDATA[>-->> compare previously and after scroll images count<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> try find element --- By.cssSelector: div>img[alt^=Рекомендуемое]<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> element --- By.cssSelector: div>img[alt^=Рекомендуемое] --- was founded<br>]]>
+            </line>
+            <line>
+              <![CDATA[>-->> check that new images was download after scroll page<br>]]>
+            </line>
+            <line>
+              <![CDATA[>-->> check is complete<br>]]>
+            </line>
+            <line>
+              <![CDATA[>-->> scroll down<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> try execute JavaScript --- window.scrollTo(0, document.body.scrollHeight)<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> JavaScript was executed --- window.scrollTo(0, document.body.scrollHeight)<br>]]>
+            </line>
+            <line>
+              <![CDATA[>-->> scroll is completed<br>]]>
+            </line>
+            <line>
+              <![CDATA[>-->> wait visibility of the last list element<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> try find element --- By.cssSelector: div>img[alt^=Рекомендуемое]<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> element --- By.cssSelector: div>img[alt^=Рекомендуемое] --- was founded<br>]]>
+            </line>
+            <line>
+              <![CDATA[>-->> element is visibility<br>]]>
+            </line>
+            <line>
+              <![CDATA[>-->> wait until the new images will be present in the DOM <br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> try find element --- By.xpath: //div[@id='recContainer']/div/ul/li[@data-idx='175']<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> element --- By.xpath: //div[@id='recContainer']/div/ul/li[@data-idx='175'] --- was founded<br>]]>
+            </line>
+            <line>
+              <![CDATA[>-->> wait is completed<br>]]>
+            </line>
+            <line>
+              <![CDATA[>-->> compare previously and after scroll images count<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> try find element --- By.cssSelector: div>img[alt^=Рекомендуемое]<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> element --- By.cssSelector: div>img[alt^=Рекомендуемое] --- was founded<br>]]>
+            </line>
+            <line>
+              <![CDATA[>-->> check that new images was download after scroll page<br>]]>
+            </line>
+            <line>
+              <![CDATA[>-->> check is complete<br>]]>
+            </line>
+            <line>
+              <![CDATA[>-->> ----------------  page scrolled 4 times  --------------------<br>]]>
+            </line>
+            <line>
+              <![CDATA[>-->> scroll window to top<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> try execute JavaScript --- window.scrollTo(0,0)<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> JavaScript was executed --- window.scrollTo(0,0)<br>]]>
+            </line>
+            <line>
+              <![CDATA[>-->> scroll is completed<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- scrollPage -->
+        <test-method status="PASS" signature="searchByKeywords(java.lang.String)[pri:0, instance:com.ohrimenko1988.QA_homework_4.Main@1324409e]" name="searchByKeywords" duration-ms="2819" started-at="2016-12-21T16:50:47Z" data-provider="fromTextFileToDataProvider" depends-on-methods="com.ohrimenko1988.QA_homework_4.Main.scrollPage" finished-at="2016-12-21T16:50:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Selenium WebDriver]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[>-->> wait until search field will be visible<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> try find element --- By.className: b_searchbox<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> element --- By.className: b_searchbox --- was founded<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> try find element --- By.className: b_searchbox<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> element --- By.className: b_searchbox --- was founded<br>]]>
+            </line>
+            <line>
+              <![CDATA[>-->> clear search field<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> try find element --- By.className: b_searchbox<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> element --- By.className: b_searchbox --- was founded<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> try change value of element --- [[ChromeDriver: chrome on XP (6987e834a4a6827dc9e33e4b76f2cbf1)] -> class name: b_searchbox]<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> value was changed in element --- [[ChromeDriver: chrome on XP (6987e834a4a6827dc9e33e4b76f2cbf1)] -> class name: b_searchbox]<br>]]>
+            </line>
+            <line>
+              <![CDATA[>-->> input search string<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> try find element --- By.className: b_searchbox<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> element --- By.className: b_searchbox --- was founded<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> try change value of element --- [[ChromeDriver: chrome on XP (6987e834a4a6827dc9e33e4b76f2cbf1)] -> class name: b_searchbox]<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> value was changed in element --- [[ChromeDriver: chrome on XP (6987e834a4a6827dc9e33e4b76f2cbf1)] -> class name: b_searchbox]<br>]]>
+            </line>
+            <line>
+              <![CDATA[>-->> wait until search expression will be located in the search field<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> try find element --- By.className: b_searchbox<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> element --- By.className: b_searchbox --- was founded<br>]]>
+            </line>
+            <line>
+              <![CDATA[>-->> press Enter button<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> try find element --- By.className: b_searchbox<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> element --- By.className: b_searchbox --- was founded<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> try change value of element --- [[ChromeDriver: chrome on XP (6987e834a4a6827dc9e33e4b76f2cbf1)] -> class name: b_searchbox]<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> value was changed in element --- [[ChromeDriver: chrome on XP (6987e834a4a6827dc9e33e4b76f2cbf1)] -> class name: b_searchbox]<br>]]>
+            </line>
+            <line>
+              <![CDATA[>-->> wait until the page title will be with search expression<br>]]>
+            </line>
+            <line>
+              <![CDATA[>-->> wait until the first image on the page will be visible <br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> try find element --- By.xpath: //div[@class='imgres']/div[@class='dg_u'][1]/div/a<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> element --- By.xpath: //div[@class='imgres']/div[@class='dg_u'][1]/div/a --- was founded<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchByKeywords -->
+        <test-method status="PASS" signature="searchByKeywords(java.lang.String)[pri:0, instance:com.ohrimenko1988.QA_homework_4.Main@1324409e]" name="searchByKeywords" duration-ms="814" started-at="2016-12-21T16:50:50Z" data-provider="fromTextFileToDataProvider" depends-on-methods="com.ohrimenko1988.QA_homework_4.Main.scrollPage" finished-at="2016-12-21T16:50:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestNG]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[>-->> wait until search field will be visible<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> try find element --- By.className: b_searchbox<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> element --- By.className: b_searchbox --- was founded<br>]]>
+            </line>
+            <line>
+              <![CDATA[>-->> clear search field<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> try find element --- By.className: b_searchbox<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> element --- By.className: b_searchbox --- was founded<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> try change value of element --- [[ChromeDriver: chrome on XP (6987e834a4a6827dc9e33e4b76f2cbf1)] -> class name: b_searchbox]<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> value was changed in element --- [[ChromeDriver: chrome on XP (6987e834a4a6827dc9e33e4b76f2cbf1)] -> class name: b_searchbox]<br>]]>
+            </line>
+            <line>
+              <![CDATA[>-->> input search string<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> try find element --- By.className: b_searchbox<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> element --- By.className: b_searchbox --- was founded<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> try change value of element --- [[ChromeDriver: chrome on XP (6987e834a4a6827dc9e33e4b76f2cbf1)] -> class name: b_searchbox]<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> value was changed in element --- [[ChromeDriver: chrome on XP (6987e834a4a6827dc9e33e4b76f2cbf1)] -> class name: b_searchbox]<br>]]>
+            </line>
+            <line>
+              <![CDATA[>-->> wait until search expression will be located in the search field<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> try find element --- By.className: b_searchbox<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> element --- By.className: b_searchbox --- was founded<br>]]>
+            </line>
+            <line>
+              <![CDATA[>-->> press Enter button<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> try find element --- By.className: b_searchbox<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> element --- By.className: b_searchbox --- was founded<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> try change value of element --- [[ChromeDriver: chrome on XP (6987e834a4a6827dc9e33e4b76f2cbf1)] -> class name: b_searchbox]<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> value was changed in element --- [[ChromeDriver: chrome on XP (6987e834a4a6827dc9e33e4b76f2cbf1)] -> class name: b_searchbox]<br>]]>
+            </line>
+            <line>
+              <![CDATA[>-->> wait until the page title will be with search expression<br>]]>
+            </line>
+            <line>
+              <![CDATA[>-->> wait until the first image on the page will be visible <br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> try find element --- By.xpath: //div[@class='imgres']/div[@class='dg_u'][1]/div/a<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> element --- By.xpath: //div[@class='imgres']/div[@class='dg_u'][1]/div/a --- was founded<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchByKeywords -->
+        <test-method status="PASS" signature="searchByKeywords(java.lang.String)[pri:0, instance:com.ohrimenko1988.QA_homework_4.Main@1324409e]" name="searchByKeywords" duration-ms="977" started-at="2016-12-21T16:50:51Z" data-provider="fromTextFileToDataProvider" depends-on-methods="com.ohrimenko1988.QA_homework_4.Main.scrollPage" finished-at="2016-12-21T16:50:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Automation]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[>-->> wait until search field will be visible<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> try find element --- By.className: b_searchbox<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> element --- By.className: b_searchbox --- was founded<br>]]>
+            </line>
+            <line>
+              <![CDATA[>-->> clear search field<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> try find element --- By.className: b_searchbox<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> element --- By.className: b_searchbox --- was founded<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> try change value of element --- [[ChromeDriver: chrome on XP (6987e834a4a6827dc9e33e4b76f2cbf1)] -> class name: b_searchbox]<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> value was changed in element --- [[ChromeDriver: chrome on XP (6987e834a4a6827dc9e33e4b76f2cbf1)] -> class name: b_searchbox]<br>]]>
+            </line>
+            <line>
+              <![CDATA[>-->> input search string<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> try find element --- By.className: b_searchbox<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> element --- By.className: b_searchbox --- was founded<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> try change value of element --- [[ChromeDriver: chrome on XP (6987e834a4a6827dc9e33e4b76f2cbf1)] -> class name: b_searchbox]<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> value was changed in element --- [[ChromeDriver: chrome on XP (6987e834a4a6827dc9e33e4b76f2cbf1)] -> class name: b_searchbox]<br>]]>
+            </line>
+            <line>
+              <![CDATA[>-->> wait until search expression will be located in the search field<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> try find element --- By.className: b_searchbox<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> element --- By.className: b_searchbox --- was founded<br>]]>
+            </line>
+            <line>
+              <![CDATA[>-->> press Enter button<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> try find element --- By.className: b_searchbox<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> element --- By.className: b_searchbox --- was founded<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> try change value of element --- [[ChromeDriver: chrome on XP (6987e834a4a6827dc9e33e4b76f2cbf1)] -> class name: b_searchbox]<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> value was changed in element --- [[ChromeDriver: chrome on XP (6987e834a4a6827dc9e33e4b76f2cbf1)] -> class name: b_searchbox]<br>]]>
+            </line>
+            <line>
+              <![CDATA[>-->> wait until the page title will be with search expression<br>]]>
+            </line>
+            <line>
+              <![CDATA[>-->> wait until the first image on the page will be visible <br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> try find element --- By.xpath: //div[@class='imgres']/div[@class='dg_u'][1]/div/a<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> element --- By.xpath: //div[@class='imgres']/div[@class='dg_u'][1]/div/a --- was founded<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchByKeywords -->
+        <test-method status="PASS" signature="validateImageAndItsButtons()[pri:0, instance:com.ohrimenko1988.QA_homework_4.Main@1324409e]" name="validateImageAndItsButtons" duration-ms="1282" started-at="2016-12-21T16:50:52Z" depends-on-methods="com.ohrimenko1988.QA_homework_4.Main.searchByKeywords" finished-at="2016-12-21T16:50:53Z">
+          <reporter-output>
+            <line>
+              <![CDATA[>-->> hover the mouse to the first image<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> try find element --- By.xpath: //div[@class='imgres']/div[@class='dg_u'][1]/div/a<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> element --- By.xpath: //div[@class='imgres']/div[@class='dg_u'][1]/div/a --- was founded<br>]]>
+            </line>
+            <line>
+              <![CDATA[>-->> wait resize image<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> try find element --- By.xpath: //div[@class='irhcs']<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> element --- By.xpath: //div[@class='irhcs'] --- was founded<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> try find element --- By.xpath: //div[@class='irhcs']<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> element --- By.xpath: //div[@class='irhcs'] --- was founded<br>]]>
+            </line>
+            <line>
+              <![CDATA[>-->> check resize image<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> try find element --- By.xpath: //div[@class='irhcs']<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> element --- By.xpath: //div[@class='irhcs'] --- was founded<br>]]>
+            </line>
+            <line>
+              <![CDATA[>-->> wait then save-button will be clickable<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> try find element --- By.xpath: //div[@class='irhcs']/span/span<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> element --- By.xpath: //div[@class='irhcs']/span/span --- was founded<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> try find element --- By.xpath: //div[@class='irhcs']/span/span<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> element --- By.xpath: //div[@class='irhcs']/span/span --- was founded<br>]]>
+            </line>
+            <line>
+              <![CDATA[>-->> check that element is available<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> try find element --- By.xpath: //div[@class='irhcs']/span/span<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> element --- By.xpath: //div[@class='irhcs']/span/span --- was founded<br>]]>
+            </line>
+            <line>
+              <![CDATA[>-->> wait until search-by-image button will be clickable<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> try find element --- By.xpath: //div[@class='irhcs']/span/img[@title='Поиск по изображению']<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> element --- By.xpath: //div[@class='irhcs']/span/img[@title='Поиск по изображению'] --- was founded<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> try find element --- By.xpath: //div[@class='irhcs']/span/img[@title='Поиск по изображению']<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> element --- By.xpath: //div[@class='irhcs']/span/img[@title='Поиск по изображению'] --- was founded<br>]]>
+            </line>
+            <line>
+              <![CDATA[>-->> check that element is available<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> try find element --- By.xpath: //div[@class='irhcs']/span/img[@title='Поиск по изображению']<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> element --- By.xpath: //div[@class='irhcs']/span/img[@title='Поиск по изображению'] --- was founded<br>]]>
+            </line>
+            <line>
+              <![CDATA[>-->> wait until violation button will be clickable<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> try find element --- By.xpath: //div[@class='irhcs']/span/img[@title='Пометить как изображение для взрослых']<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> element --- By.xpath: //div[@class='irhcs']/span/img[@title='Пометить как изображение для взрослых'] --- was founded<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> try find element --- By.xpath: //div[@class='irhcs']/span/img[@title='Пометить как изображение для взрослых']<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> element --- By.xpath: //div[@class='irhcs']/span/img[@title='Пометить как изображение для взрослых'] --- was founded<br>]]>
+            </line>
+            <line>
+              <![CDATA[>-->> check that element is available<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> try find element --- By.xpath: //div[@class='irhcs']/span/img[@title='Пометить как изображение для взрослых']<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> element --- By.xpath: //div[@class='irhcs']/span/img[@title='Пометить как изображение для взрослых'] --- was founded<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateImageAndItsButtons -->
+        <test-method status="PASS" signature="clickSearchByImageButton()[pri:0, instance:com.ohrimenko1988.QA_homework_4.Main@1324409e]" name="clickSearchByImageButton" duration-ms="2204" started-at="2016-12-21T16:50:53Z" depends-on-methods="com.ohrimenko1988.QA_homework_4.Main.validateImageAndItsButtons" finished-at="2016-12-21T16:50:55Z">
+          <reporter-output>
+            <line>
+              <![CDATA[>-->> click on search-by-image button<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> try find element --- By.xpath: //div[@class='irhcs']/span/img[@title='Поиск по изображению']<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> element --- By.xpath: //div[@class='irhcs']/span/img[@title='Поиск по изображению'] --- was founded<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> try find element --- By.xpath: //div[@class='irhcs']/span/img[@title='Поиск по изображению']<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> element --- By.xpath: //div[@class='irhcs']/span/img[@title='Поиск по изображению'] --- was founded<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> try find element --- By.xpath: //div[@class='irhcs']/span/img[@title='Поиск по изображению']<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> element --- By.xpath: //div[@class='irhcs']/span/img[@title='Поиск по изображению'] --- was founded<br>]]>
+            </line>
+            <line>
+              <![CDATA[>-->> wait until slide show will be loaded<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> try find element --- By.xpath: //span[@id='copy']<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> element --- By.xpath: //span[@id='copy'] --- was founded<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> try find element --- By.xpath: //span[@id='copy']<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> element --- By.xpath: //span[@id='copy'] --- was founded<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> try find element --- By.xpath: //span[@id='copy']<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> element --- By.xpath: //span[@id='copy'] --- was founded<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> try find element --- By.xpath: //span[@id='copy']<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> element --- By.xpath: //span[@id='copy'] --- was founded<br>]]>
+            </line>
+            <line>
+              <![CDATA[>-->> check that element is available<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> try find element --- By.xpath: //span[@id='copy']<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> element --- By.xpath: //span[@id='copy'] --- was founded<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- clickSearchByImageButton -->
+        <test-method status="PASS" signature="watchAnotherImages(int)[pri:0, instance:com.ohrimenko1988.QA_homework_4.Main@1324409e]" name="watchAnotherImages" duration-ms="175" started-at="2016-12-21T16:50:55Z" depends-on-methods="com.ohrimenko1988.QA_homework_4.Main.clickSearchByImageButton" finished-at="2016-12-21T16:50:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[>-->> wait until element will be clickable<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> try find element --- By.xpath: //div[@class='expandButton clickable active']/span<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> element --- By.xpath: //div[@class='expandButton clickable active']/span --- was founded<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> try find element --- By.xpath: //div[@class='expandButton clickable active']/span<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> element --- By.xpath: //div[@class='expandButton clickable active']/span --- was founded<br>]]>
+            </line>
+            <line>
+              <![CDATA[>-->> wait until element will be visibility <br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> try find element --- By.xpath: //div[@class='expandButton clickable active']/span<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> element --- By.xpath: //div[@class='expandButton clickable active']/span --- was founded<br>]]>
+            </line>
+            <line>
+              <![CDATA[>-->> click on it<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> try find element --- By.xpath: //div[@class='expandButton clickable active']/span<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> element --- By.xpath: //div[@class='expandButton clickable active']/span --- was founded<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> try find element --- By.xpath: //div[@class='expandButton clickable active']/span<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> element --- By.xpath: //div[@class='expandButton clickable active']/span --- was founded<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> try find element --- By.xpath: //div[@class='expandButton clickable active']/span<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> element --- By.xpath: //div[@class='expandButton clickable active']/span --- was founded<br>]]>
+            </line>
+            <line>
+              <![CDATA[>-->> get last index of the related images list<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> try find element --- By.xpath: //div[@class='tab-content']//li<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> element --- By.xpath: //div[@class='tab-content']//li --- was founded<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> try find element --- By.xpath: //div[@class='tab-content']//li<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> element --- By.xpath: //div[@class='tab-content']//li --- was founded<br>]]>
+            </line>
+            <line>
+              <![CDATA[>-->> wait until last element will be not hiden<br>]]>
+            </line>
+            <line>
+              <![CDATA[>-->> check that size of related images in the acceptable limits<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> try find element --- By.xpath: //div[@class='tab-content']//li<br>]]>
+            </line>
+            <line>
+              <![CDATA[--->> element --- By.xpath: //div[@class='tab-content']//li --- was founded<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- watchAnotherImages -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ohrimenko1988.QA_homework_4.Main@1324409e]" name="tearDown" is-config="true" duration-ms="748" started-at="2016-12-21T16:50:55Z" finished-at="2016-12-21T16:50:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ohrimenko1988.QA_homework_4.Main -->
+    </test> <!-- Main -->
+  </suite> <!-- Suite1 -->
+</testng-results>

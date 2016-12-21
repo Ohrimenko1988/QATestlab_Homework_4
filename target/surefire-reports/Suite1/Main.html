@@ -1,0 +1,409 @@
+<html>
+<head>
+<title>TestNG:  Main</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Main</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>8/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Dec 21 16:50:40 EET 2016</td>
+</tr>
+<tr><td>Total time:</td><td>16 seconds (16119 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.ohrimenko1988.QA_homework_4.Main.clickSearchByImageButton()'><b>clickSearchByImageButton</b><br>Test class: com.ohrimenko1988.QA_homework_4.Main<br/>
+<a href="#Output-313239742" onClick='toggleBox("Output-313239742", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-313239742" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-313239742">
+>-->> click on search-by-image button<br><br/>
+--->> try find element --- By.xpath: //div[@class='irhcs']/span/img[@title='Поиск по изображению']<br><br/>
+--->> element --- By.xpath: //div[@class='irhcs']/span/img[@title='Поиск по изображению'] --- was founded<br><br/>
+--->> try find element --- By.xpath: //div[@class='irhcs']/span/img[@title='Поиск по изображению']<br><br/>
+--->> element --- By.xpath: //div[@class='irhcs']/span/img[@title='Поиск по изображению'] --- was founded<br><br/>
+--->> try find element --- By.xpath: //div[@class='irhcs']/span/img[@title='Поиск по изображению']<br><br/>
+--->> element --- By.xpath: //div[@class='irhcs']/span/img[@title='Поиск по изображению'] --- was founded<br><br/>
+>-->> wait until slide show will be loaded<br><br/>
+--->> try find element --- By.xpath: //span[@id='copy']<br><br/>
+--->> element --- By.xpath: //span[@id='copy'] --- was founded<br><br/>
+--->> try find element --- By.xpath: //span[@id='copy']<br><br/>
+--->> element --- By.xpath: //span[@id='copy'] --- was founded<br><br/>
+--->> try find element --- By.xpath: //span[@id='copy']<br><br/>
+--->> element --- By.xpath: //span[@id='copy'] --- was founded<br><br/>
+--->> try find element --- By.xpath: //span[@id='copy']<br><br/>
+--->> element --- By.xpath: //span[@id='copy'] --- was founded<br><br/>
+>-->> check that element is available<br><br/>
+--->> try find element --- By.xpath: //span[@id='copy']<br><br/>
+--->> element --- By.xpath: //span[@id='copy'] --- was founded<br><br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.ohrimenko1988.QA_homework_4.Main@1324409e</td></tr>
+<tr>
+<td title='com.ohrimenko1988.QA_homework_4.Main.scrollPage()'><b>scrollPage</b><br>Test class: com.ohrimenko1988.QA_homework_4.Main<br/>
+<a href="#Output-2119891622" onClick='toggleBox("Output-2119891622", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2119891622" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2119891622">
+>-->> found and save count of elements<br><br/>
+--->> try find element --- By.cssSelector: div>img[alt^=Рекомендуемое]<br><br/>
+--->> element --- By.cssSelector: div>img[alt^=Рекомендуемое] --- was founded<br><br/>
+>-->> count was saved<br><br/>
+>-->> --------------  try scroll page 4 times  --------------<br><br/>
+>-->> scroll down<br><br/>
+--->> try execute JavaScript --- window.scrollTo(0, document.body.scrollHeight)<br><br/>
+--->> JavaScript was executed --- window.scrollTo(0, document.body.scrollHeight)<br><br/>
+>-->> scroll is completed<br><br/>
+>-->> wait visibility of the last list element<br><br/>
+--->> try find element --- By.cssSelector: div>img[alt^=Рекомендуемое]<br><br/>
+--->> element --- By.cssSelector: div>img[alt^=Рекомендуемое] --- was founded<br><br/>
+>-->> element is visibility<br><br/>
+>-->> wait until the new images will be present in the DOM <br><br/>
+--->> try find element --- By.xpath: //div[@id='recContainer']/div/ul/li[@data-idx='70']<br><br/>
+--->> element --- By.xpath: //div[@id='recContainer']/div/ul/li[@data-idx='70'] --- was founded<br><br/>
+>-->> wait is completed<br><br/>
+>-->> compare previously and after scroll images count<br><br/>
+--->> try find element --- By.cssSelector: div>img[alt^=Рекомендуемое]<br><br/>
+--->> element --- By.cssSelector: div>img[alt^=Рекомендуемое] --- was founded<br><br/>
+>-->> check that new images was download after scroll page<br><br/>
+>-->> check is complete<br><br/>
+>-->> scroll down<br><br/>
+--->> try execute JavaScript --- window.scrollTo(0, document.body.scrollHeight)<br><br/>
+--->> JavaScript was executed --- window.scrollTo(0, document.body.scrollHeight)<br><br/>
+>-->> scroll is completed<br><br/>
+>-->> wait visibility of the last list element<br><br/>
+--->> try find element --- By.cssSelector: div>img[alt^=Рекомендуемое]<br><br/>
+--->> element --- By.cssSelector: div>img[alt^=Рекомендуемое] --- was founded<br><br/>
+>-->> element is visibility<br><br/>
+>-->> wait until the new images will be present in the DOM <br><br/>
+--->> try find element --- By.xpath: //div[@id='recContainer']/div/ul/li[@data-idx='105']<br><br/>
+--->> element --- By.xpath: //div[@id='recContainer']/div/ul/li[@data-idx='105'] --- was founded<br><br/>
+>-->> wait is completed<br><br/>
+>-->> compare previously and after scroll images count<br><br/>
+--->> try find element --- By.cssSelector: div>img[alt^=Рекомендуемое]<br><br/>
+--->> element --- By.cssSelector: div>img[alt^=Рекомендуемое] --- was founded<br><br/>
+>-->> check that new images was download after scroll page<br><br/>
+>-->> check is complete<br><br/>
+>-->> scroll down<br><br/>
+--->> try execute JavaScript --- window.scrollTo(0, document.body.scrollHeight)<br><br/>
+--->> JavaScript was executed --- window.scrollTo(0, document.body.scrollHeight)<br><br/>
+>-->> scroll is completed<br><br/>
+>-->> wait visibility of the last list element<br><br/>
+--->> try find element --- By.cssSelector: div>img[alt^=Рекомендуемое]<br><br/>
+--->> element --- By.cssSelector: div>img[alt^=Рекомендуемое] --- was founded<br><br/>
+>-->> element is visibility<br><br/>
+>-->> wait until the new images will be present in the DOM <br><br/>
+--->> try find element --- By.xpath: //div[@id='recContainer']/div/ul/li[@data-idx='140']<br><br/>
+--->> element --- By.xpath: //div[@id='recContainer']/div/ul/li[@data-idx='140'] --- was founded<br><br/>
+>-->> wait is completed<br><br/>
+>-->> compare previously and after scroll images count<br><br/>
+--->> try find element --- By.cssSelector: div>img[alt^=Рекомендуемое]<br><br/>
+--->> element --- By.cssSelector: div>img[alt^=Рекомендуемое] --- was founded<br><br/>
+>-->> check that new images was download after scroll page<br><br/>
+>-->> check is complete<br><br/>
+>-->> scroll down<br><br/>
+--->> try execute JavaScript --- window.scrollTo(0, document.body.scrollHeight)<br><br/>
+--->> JavaScript was executed --- window.scrollTo(0, document.body.scrollHeight)<br><br/>
+>-->> scroll is completed<br><br/>
+>-->> wait visibility of the last list element<br><br/>
+--->> try find element --- By.cssSelector: div>img[alt^=Рекомендуемое]<br><br/>
+--->> element --- By.cssSelector: div>img[alt^=Рекомендуемое] --- was founded<br><br/>
+>-->> element is visibility<br><br/>
+>-->> wait until the new images will be present in the DOM <br><br/>
+--->> try find element --- By.xpath: //div[@id='recContainer']/div/ul/li[@data-idx='175']<br><br/>
+--->> element --- By.xpath: //div[@id='recContainer']/div/ul/li[@data-idx='175'] --- was founded<br><br/>
+>-->> wait is completed<br><br/>
+>-->> compare previously and after scroll images count<br><br/>
+--->> try find element --- By.cssSelector: div>img[alt^=Рекомендуемое]<br><br/>
+--->> element --- By.cssSelector: div>img[alt^=Рекомендуемое] --- was founded<br><br/>
+>-->> check that new images was download after scroll page<br><br/>
+>-->> check is complete<br><br/>
+>-->> ----------------  page scrolled 4 times  --------------------<br><br/>
+>-->> scroll window to top<br><br/>
+--->> try execute JavaScript --- window.scrollTo(0,0)<br><br/>
+--->> JavaScript was executed --- window.scrollTo(0,0)<br><br/>
+>-->> scroll is completed<br><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.ohrimenko1988.QA_homework_4.Main@1324409e</td></tr>
+<tr>
+<td title='com.ohrimenko1988.QA_homework_4.Main.searchByKeywords()'><b>searchByKeywords</b><br>Test class: com.ohrimenko1988.QA_homework_4.Main<br>Parameters: Selenium WebDriver<br/>
+<a href="#Output-2146338580" onClick='toggleBox("Output-2146338580", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2146338580" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2146338580">
+>-->> wait until search field will be visible<br><br/>
+--->> try find element --- By.className: b_searchbox<br><br/>
+--->> element --- By.className: b_searchbox --- was founded<br><br/>
+--->> try find element --- By.className: b_searchbox<br><br/>
+--->> element --- By.className: b_searchbox --- was founded<br><br/>
+>-->> clear search field<br><br/>
+--->> try find element --- By.className: b_searchbox<br><br/>
+--->> element --- By.className: b_searchbox --- was founded<br><br/>
+--->> try change value of element --- [[ChromeDriver: chrome on XP (6987e834a4a6827dc9e33e4b76f2cbf1)] -> class name: b_searchbox]<br><br/>
+--->> value was changed in element --- [[ChromeDriver: chrome on XP (6987e834a4a6827dc9e33e4b76f2cbf1)] -> class name: b_searchbox]<br><br/>
+>-->> input search string<br><br/>
+--->> try find element --- By.className: b_searchbox<br><br/>
+--->> element --- By.className: b_searchbox --- was founded<br><br/>
+--->> try change value of element --- [[ChromeDriver: chrome on XP (6987e834a4a6827dc9e33e4b76f2cbf1)] -> class name: b_searchbox]<br><br/>
+--->> value was changed in element --- [[ChromeDriver: chrome on XP (6987e834a4a6827dc9e33e4b76f2cbf1)] -> class name: b_searchbox]<br><br/>
+>-->> wait until search expression will be located in the search field<br><br/>
+--->> try find element --- By.className: b_searchbox<br><br/>
+--->> element --- By.className: b_searchbox --- was founded<br><br/>
+>-->> press Enter button<br><br/>
+--->> try find element --- By.className: b_searchbox<br><br/>
+--->> element --- By.className: b_searchbox --- was founded<br><br/>
+--->> try change value of element --- [[ChromeDriver: chrome on XP (6987e834a4a6827dc9e33e4b76f2cbf1)] -> class name: b_searchbox]<br><br/>
+--->> value was changed in element --- [[ChromeDriver: chrome on XP (6987e834a4a6827dc9e33e4b76f2cbf1)] -> class name: b_searchbox]<br><br/>
+>-->> wait until the page title will be with search expression<br><br/>
+>-->> wait until the first image on the page will be visible <br><br/>
+--->> try find element --- By.xpath: //div[@class='imgres']/div[@class='dg_u'][1]/div/a<br><br/>
+--->> element --- By.xpath: //div[@class='imgres']/div[@class='dg_u'][1]/div/a --- was founded<br><br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.ohrimenko1988.QA_homework_4.Main@1324409e</td></tr>
+<tr>
+<td title='com.ohrimenko1988.QA_homework_4.Main.searchByKeywords()'><b>searchByKeywords</b><br>Test class: com.ohrimenko1988.QA_homework_4.Main<br>Parameters: TestNG<br/>
+<a href="#Output-1194893830" onClick='toggleBox("Output-1194893830", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1194893830" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1194893830">
+>-->> wait until search field will be visible<br><br/>
+--->> try find element --- By.className: b_searchbox<br><br/>
+--->> element --- By.className: b_searchbox --- was founded<br><br/>
+>-->> clear search field<br><br/>
+--->> try find element --- By.className: b_searchbox<br><br/>
+--->> element --- By.className: b_searchbox --- was founded<br><br/>
+--->> try change value of element --- [[ChromeDriver: chrome on XP (6987e834a4a6827dc9e33e4b76f2cbf1)] -> class name: b_searchbox]<br><br/>
+--->> value was changed in element --- [[ChromeDriver: chrome on XP (6987e834a4a6827dc9e33e4b76f2cbf1)] -> class name: b_searchbox]<br><br/>
+>-->> input search string<br><br/>
+--->> try find element --- By.className: b_searchbox<br><br/>
+--->> element --- By.className: b_searchbox --- was founded<br><br/>
+--->> try change value of element --- [[ChromeDriver: chrome on XP (6987e834a4a6827dc9e33e4b76f2cbf1)] -> class name: b_searchbox]<br><br/>
+--->> value was changed in element --- [[ChromeDriver: chrome on XP (6987e834a4a6827dc9e33e4b76f2cbf1)] -> class name: b_searchbox]<br><br/>
+>-->> wait until search expression will be located in the search field<br><br/>
+--->> try find element --- By.className: b_searchbox<br><br/>
+--->> element --- By.className: b_searchbox --- was founded<br><br/>
+>-->> press Enter button<br><br/>
+--->> try find element --- By.className: b_searchbox<br><br/>
+--->> element --- By.className: b_searchbox --- was founded<br><br/>
+--->> try change value of element --- [[ChromeDriver: chrome on XP (6987e834a4a6827dc9e33e4b76f2cbf1)] -> class name: b_searchbox]<br><br/>
+--->> value was changed in element --- [[ChromeDriver: chrome on XP (6987e834a4a6827dc9e33e4b76f2cbf1)] -> class name: b_searchbox]<br><br/>
+>-->> wait until the page title will be with search expression<br><br/>
+>-->> wait until the first image on the page will be visible <br><br/>
+--->> try find element --- By.xpath: //div[@class='imgres']/div[@class='dg_u'][1]/div/a<br><br/>
+--->> element --- By.xpath: //div[@class='imgres']/div[@class='dg_u'][1]/div/a --- was founded<br><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.ohrimenko1988.QA_homework_4.Main@1324409e</td></tr>
+<tr>
+<td title='com.ohrimenko1988.QA_homework_4.Main.searchByKeywords()'><b>searchByKeywords</b><br>Test class: com.ohrimenko1988.QA_homework_4.Main<br>Parameters: Automation<br/>
+<a href="#Output-1490509465" onClick='toggleBox("Output-1490509465", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1490509465" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1490509465">
+>-->> wait until search field will be visible<br><br/>
+--->> try find element --- By.className: b_searchbox<br><br/>
+--->> element --- By.className: b_searchbox --- was founded<br><br/>
+>-->> clear search field<br><br/>
+--->> try find element --- By.className: b_searchbox<br><br/>
+--->> element --- By.className: b_searchbox --- was founded<br><br/>
+--->> try change value of element --- [[ChromeDriver: chrome on XP (6987e834a4a6827dc9e33e4b76f2cbf1)] -> class name: b_searchbox]<br><br/>
+--->> value was changed in element --- [[ChromeDriver: chrome on XP (6987e834a4a6827dc9e33e4b76f2cbf1)] -> class name: b_searchbox]<br><br/>
+>-->> input search string<br><br/>
+--->> try find element --- By.className: b_searchbox<br><br/>
+--->> element --- By.className: b_searchbox --- was founded<br><br/>
+--->> try change value of element --- [[ChromeDriver: chrome on XP (6987e834a4a6827dc9e33e4b76f2cbf1)] -> class name: b_searchbox]<br><br/>
+--->> value was changed in element --- [[ChromeDriver: chrome on XP (6987e834a4a6827dc9e33e4b76f2cbf1)] -> class name: b_searchbox]<br><br/>
+>-->> wait until search expression will be located in the search field<br><br/>
+--->> try find element --- By.className: b_searchbox<br><br/>
+--->> element --- By.className: b_searchbox --- was founded<br><br/>
+>-->> press Enter button<br><br/>
+--->> try find element --- By.className: b_searchbox<br><br/>
+--->> element --- By.className: b_searchbox --- was founded<br><br/>
+--->> try change value of element --- [[ChromeDriver: chrome on XP (6987e834a4a6827dc9e33e4b76f2cbf1)] -> class name: b_searchbox]<br><br/>
+--->> value was changed in element --- [[ChromeDriver: chrome on XP (6987e834a4a6827dc9e33e4b76f2cbf1)] -> class name: b_searchbox]<br><br/>
+>-->> wait until the page title will be with search expression<br><br/>
+>-->> wait until the first image on the page will be visible <br><br/>
+--->> try find element --- By.xpath: //div[@class='imgres']/div[@class='dg_u'][1]/div/a<br><br/>
+--->> element --- By.xpath: //div[@class='imgres']/div[@class='dg_u'][1]/div/a --- was founded<br><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.ohrimenko1988.QA_homework_4.Main@1324409e</td></tr>
+<tr>
+<td title='com.ohrimenko1988.QA_homework_4.Main.uploadPage()'><b>uploadPage</b><br>Test class: com.ohrimenko1988.QA_homework_4.Main<br/>
+<a href="#Output-865667596" onClick='toggleBox("Output-865667596", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-865667596" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-865667596">
+--->> go to URL<br><br/>
+--->> try load page https://www.bing.com/<br><br/>
+--->> page https://www.bing.com/ is loaded<br><br/>
+--->> find Images button<br><br/>
+--->> try find element --- By.id: scpl1<br><br/>
+--->> element --- By.id: scpl1 --- was founded<br><br/>
+--->> element [[ChromeDriver: chrome on XP (6987e834a4a6827dc9e33e4b76f2cbf1)] -> id: scpl1] was clicked<br><br/>
+--->> check the page title<br><br/>
+--->> the page title was checked<br><br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.ohrimenko1988.QA_homework_4.Main@1324409e</td></tr>
+<tr>
+<td title='com.ohrimenko1988.QA_homework_4.Main.validateImageAndItsButtons()'><b>validateImageAndItsButtons</b><br>Test class: com.ohrimenko1988.QA_homework_4.Main<br/>
+<a href="#Output-1213818572" onClick='toggleBox("Output-1213818572", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1213818572" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1213818572">
+>-->> hover the mouse to the first image<br><br/>
+--->> try find element --- By.xpath: //div[@class='imgres']/div[@class='dg_u'][1]/div/a<br><br/>
+--->> element --- By.xpath: //div[@class='imgres']/div[@class='dg_u'][1]/div/a --- was founded<br><br/>
+>-->> wait resize image<br><br/>
+--->> try find element --- By.xpath: //div[@class='irhcs']<br><br/>
+--->> element --- By.xpath: //div[@class='irhcs'] --- was founded<br><br/>
+--->> try find element --- By.xpath: //div[@class='irhcs']<br><br/>
+--->> element --- By.xpath: //div[@class='irhcs'] --- was founded<br><br/>
+>-->> check resize image<br><br/>
+--->> try find element --- By.xpath: //div[@class='irhcs']<br><br/>
+--->> element --- By.xpath: //div[@class='irhcs'] --- was founded<br><br/>
+>-->> wait then save-button will be clickable<br><br/>
+--->> try find element --- By.xpath: //div[@class='irhcs']/span/span<br><br/>
+--->> element --- By.xpath: //div[@class='irhcs']/span/span --- was founded<br><br/>
+--->> try find element --- By.xpath: //div[@class='irhcs']/span/span<br><br/>
+--->> element --- By.xpath: //div[@class='irhcs']/span/span --- was founded<br><br/>
+>-->> check that element is available<br><br/>
+--->> try find element --- By.xpath: //div[@class='irhcs']/span/span<br><br/>
+--->> element --- By.xpath: //div[@class='irhcs']/span/span --- was founded<br><br/>
+>-->> wait until search-by-image button will be clickable<br><br/>
+--->> try find element --- By.xpath: //div[@class='irhcs']/span/img[@title='Поиск по изображению']<br><br/>
+--->> element --- By.xpath: //div[@class='irhcs']/span/img[@title='Поиск по изображению'] --- was founded<br><br/>
+--->> try find element --- By.xpath: //div[@class='irhcs']/span/img[@title='Поиск по изображению']<br><br/>
+--->> element --- By.xpath: //div[@class='irhcs']/span/img[@title='Поиск по изображению'] --- was founded<br><br/>
+>-->> check that element is available<br><br/>
+--->> try find element --- By.xpath: //div[@class='irhcs']/span/img[@title='Поиск по изображению']<br><br/>
+--->> element --- By.xpath: //div[@class='irhcs']/span/img[@title='Поиск по изображению'] --- was founded<br><br/>
+>-->> wait until violation button will be clickable<br><br/>
+--->> try find element --- By.xpath: //div[@class='irhcs']/span/img[@title='Пометить как изображение для взрослых']<br><br/>
+--->> element --- By.xpath: //div[@class='irhcs']/span/img[@title='Пометить как изображение для взрослых'] --- was founded<br><br/>
+--->> try find element --- By.xpath: //div[@class='irhcs']/span/img[@title='Пометить как изображение для взрослых']<br><br/>
+--->> element --- By.xpath: //div[@class='irhcs']/span/img[@title='Пометить как изображение для взрослых'] --- was founded<br><br/>
+>-->> check that element is available<br><br/>
+--->> try find element --- By.xpath: //div[@class='irhcs']/span/img[@title='Пометить как изображение для взрослых']<br><br/>
+--->> element --- By.xpath: //div[@class='irhcs']/span/img[@title='Пометить как изображение для взрослых'] --- was founded<br><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.ohrimenko1988.QA_homework_4.Main@1324409e</td></tr>
+<tr>
+<td title='com.ohrimenko1988.QA_homework_4.Main.watchAnotherImages()'><b>watchAnotherImages</b><br>Test class: com.ohrimenko1988.QA_homework_4.Main<br>Parameters: 10<br/>
+<a href="#Output-227755469" onClick='toggleBox("Output-227755469", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-227755469" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-227755469">
+>-->> wait until element will be clickable<br><br/>
+--->> try find element --- By.xpath: //div[@class='expandButton clickable active']/span<br><br/>
+--->> element --- By.xpath: //div[@class='expandButton clickable active']/span --- was founded<br><br/>
+--->> try find element --- By.xpath: //div[@class='expandButton clickable active']/span<br><br/>
+--->> element --- By.xpath: //div[@class='expandButton clickable active']/span --- was founded<br><br/>
+>-->> wait until element will be visibility <br><br/>
+--->> try find element --- By.xpath: //div[@class='expandButton clickable active']/span<br><br/>
+--->> element --- By.xpath: //div[@class='expandButton clickable active']/span --- was founded<br><br/>
+>-->> click on it<br><br/>
+--->> try find element --- By.xpath: //div[@class='expandButton clickable active']/span<br><br/>
+--->> element --- By.xpath: //div[@class='expandButton clickable active']/span --- was founded<br><br/>
+--->> try find element --- By.xpath: //div[@class='expandButton clickable active']/span<br><br/>
+--->> element --- By.xpath: //div[@class='expandButton clickable active']/span --- was founded<br><br/>
+--->> try find element --- By.xpath: //div[@class='expandButton clickable active']/span<br><br/>
+--->> element --- By.xpath: //div[@class='expandButton clickable active']/span --- was founded<br><br/>
+>-->> get last index of the related images list<br><br/>
+--->> try find element --- By.xpath: //div[@class='tab-content']//li<br><br/>
+--->> element --- By.xpath: //div[@class='tab-content']//li --- was founded<br><br/>
+--->> try find element --- By.xpath: //div[@class='tab-content']//li<br><br/>
+--->> element --- By.xpath: //div[@class='tab-content']//li --- was founded<br><br/>
+>-->> wait until last element will be not hiden<br><br/>
+>-->> check that size of related images in the acceptable limits<br><br/>
+--->> try find element --- By.xpath: //div[@class='tab-content']//li<br><br/>
+--->> element --- By.xpath: //div[@class='tab-content']//li --- was founded<br><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.ohrimenko1988.QA_homework_4.Main@1324409e</td></tr>
+</table><p>
+</body>
+</html>
