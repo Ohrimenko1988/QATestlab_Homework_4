@@ -1,11 +1,7 @@
 
 
 
-
-TEST_LAUNCHER - ������� ������� 
-
-
-searchWords - ��������� ���� � ������� ��� ������
+TEST_LAUNCHER - лаунчер проекта 
 
 
-test  test test test 
+searchWords - текстовый файл с словами для поиска
