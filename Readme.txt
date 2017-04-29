@@ -10,5 +10,5 @@ searchWords - ��������� ���� � �������
 ///////////////
 ssssssssssssssss
 ssssssssssssss
-1111111
+
 
